@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title> ChatGPT 中文版国内使用方法指南（支持GPT-4、GPT-4o、GPT-o1）【2025年7月更新】</title> 
+    <title> ChatGPT 中文版国内使用方法指南（支持GPT-4、GPT-4o、GPT-o1）【2025年7月27日更新】</title> 
     <meta name="description" content="ChatGPT 中文版是 OpenAI 开发的 ChatGPT 模型的中文优化版本，专为中文用户提供更流畅、更精准的智能对话。全面体验 ChatGPT 中文版，无需翻墙，支持 GPT-4、4o、o1 和本地化功能。本项目为用户提供一站式的 ChatGPT 中文版使用指南，包括国内可用的 ChatGPT 镜像网站推荐和使用教程，帮助快速上手 ChatGPT，无论是个人使用还是专业需求，均可无限使用 ChatGPT-4、GPT-4o 和 o1、o3及 DeepSeek R1！">
     <meta name="keywords" content="ChatGPT,GPT,Chat GPT,ChatGPT中文版,ChatGPT中文网,ChatGPT中文版镜像网站,ChatGPT官网,ChatGPT镜像网站,ChatGPT镜像站,ChatGPT网站,ChatGPT镜像,免费ChatGPT,国内ChatGPT,ChatGPT国内,ChatGPT中文版免费,ChatGPT免费,ChatGPT中文站,ChatGPT中文网站,chatgpt中文镜像,ChatGPT国内版,ChatGPT中国站,ChatGPT,人工智能,ChatGPT中文网官网,DeepSeek,Deep Seek,deepseek, deep seek,deepseek R1">
-    <meta property="og:title" content="ChatGPT 中文版国内使用方法指南（支持GPT-4、GPT-4o、GPT-o1）【2025年7月更新】">
+    <meta property="og:title" content="ChatGPT 中文版国内使用方法指南（支持GPT-4、GPT-4o、GPT-o1）【2025年7月27日更新】">
     <meta property="og:description" content="ChatGPT 中文版是 OpenAI 开发的 ChatGPT 模型的中文优化版本，专为中文用户提供更流畅、更精准的智能对话。全面体验 ChatGPT 中文版，无需翻墙，支持 GPT-4、4o、o1 和本地化功能。本项目为用户提供一站式的 ChatGPT 中文版使用指南，包括国内可用的 ChatGPT 镜像网站推荐和使用教程，帮助快速上手 ChatGPT，无论是个人使用还是专业需求，均可无限使用 ChatGPT-4、GPT-4o 和 o1、o3及 DeepSeek R1！">
     <meta property="og:url" content="https://chatgpt-home.github.io/ChatGPT-Chinese">
-    <meta property="twitter:title" content="ChatGPT 中文版：国内直连指南（支持GPT-2、GPT-4o、GPT-o1，无需翻墙）【2025年7月更新】">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="twitter:title" content="ChatGPT 中文版：国内直连指南（支持GPT-2、GPT-4o、GPT-o1，无需翻墙）【2025年7月27日更新】">
     <meta property="twitter:description" content="ChatGPT 中文版是 OpenAI 开发的 ChatGPT 模型的中文优化版本，专为中文用户提供更流畅、更精准的智能对话。全面体验 ChatGPT 中文版，无需翻墙，支持 GPT-4、4o、o1 和本地化功能。本项目为用户提供一站式的 ChatGPT 中文版使用指南，包括国内可用的 ChatGPT 镜像网站推荐和使用教程，帮助快速上手 ChatGPT，无论是个人使用还是专业需求，均可无限使用 ChatGPT-4、GPT-4o 和 o1、o3及 DeepSeek R1！">
     <meta name="twitter:card" content="summary_large_image">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <meta charSet="utf-8" />
+    <meta charset="utf-8" />
     <meta http-equiv='content-language' content='zh-CN'>
     <meta name="msvalidate.01" content="13FA48707DFB7A4DA2641B1733A668E8" />
-    <link rel="icon" href="/openai.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO Improvements -->
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="ChatGPT 中文版指南团队">
+    <link rel="icon" href="/openai.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -97,8 +102,6 @@
                 transform: scale(1);
             }
         }
-
-        /* New Section Styles */
         .markdown-content {
             padding: 40px;
             background-color: #00A2E8;
@@ -128,8 +131,6 @@
         .markdown-content th {
             background-color: #333;
         }
-
-        /* Mobile Styles */
         @media screen and (max-width: 767px) {
             .container {
                 min-height: auto;
@@ -167,7 +168,46 @@
                 display: none;
             }
         }
+        /* 镜像站样式 */
+        .mirror-links {
+            background: linear-gradient(45deg, #2a2a2a, #3a3a3a);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        .mirror-link {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px;
+            background: linear-gradient(45deg, #007bff, #00a2e8);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        .mirror-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
     </style>
+    <script>
+        // 自动设置更新日期
+        document.addEventListener("DOMContentLoaded", function() {
+            let updateDateElems = document.querySelectorAll('.update-date strong');
+            if (updateDateElems.length > 0) {
+                let now = new Date();
+                let yyyy = now.getFullYear();
+                let mm = (now.getMonth() + 1).toString().padStart(2, '0');
+                let dd = now.getDate().toString().padStart(2, '0');
+                let dateStr = `${yyyy}/${mm}/${dd}`;
+                updateDateElems.forEach(function(elem) {
+                    elem.textContent = dateStr;
+                });
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="background"></div>
@@ -177,38 +217,12 @@
             <h2>年 最新的 ChatGPT 中文版。</h2>
             <h2>轻松使用上 ChatGPT、DeepSeek、Claude、Grok ~</h2>
             <h3>无需翻墙、无需注册账号~ </h3>
-            <h4 class="update-date">更新日期：<strong>2025/07/02</strong></h4>
+            <h4 class="update-date">更新日期：<strong>2025/07/27</strong></h4>
             <a href="https://xsimplechat.com" target="_self" class="button">开始对话</a>
             <a href="https://xsimplechat.com" class="title-button" target="_blank">ChatGPT中文版</a>
-            <style>
-                /* 添加镜像站点链接样式 */
-                .mirror-links {
-                    background: linear-gradient(45deg, #2a2a2a, #3a3a3a);
-                    padding: 20px;
-                    border-radius: 10px;
-                    margin: 30px 0;
-                    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-                }
-                .mirror-link {
-                    display: inline-block;
-                    padding: 12px 25px;
-                    margin: 10px;
-                    background: linear-gradient(45deg, #007bff, #00a2e8);
-                    color: white;
-                    text-decoration: none;
-                    border-radius: 25px;
-                    font-weight: bold;
-                    transition: all 0.3s ease;
-                }
-                .mirror-link:hover {
-                    transform: translateY(-2px);
-                    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
-                }
-            </style>
-            </div>
+        </div>
         <div class="arrow-down" onclick="scrollToContent()">⬇️更多ChatGPT中文版镜像网站</div>
     </div>
-
     <!-- Second Screen Content -->
     <section class="markdown-content" id="more-content">
 
@@ -242,7 +256,7 @@
         </thead>
         <tbody>
             <tr>
-                <td><a href="xsimplechat.com" target="_blank">https://xsimplechat.com</a></td>
+                <td><a href="https://xsimplechat.com" target="_blank">https://xsimplechat.com</a></td>
                 <td>GPT-4,4o,o3,DeepSeek、Claude、Grok</td>
                 <td>有</td>
                 <td>无需注册</td>
@@ -250,7 +264,7 @@
                 <td>支持 GPT-4o，内置 MJ 绘图，适合开发者与普通用户</td>
             </tr>
             <tr>
-                <td><a href="chat.lanjing.pro" target="_blank">https://chat.lanjing.pro/</a></td>
+                <td><a href="https://chat.lanjingai.org" target="_blank">https://chat.lanjingai.org/</a></td>
                 <td>GPT-4, GPT-4o, GPT-o1，GPT-o3，Claude 3.7 Sonnet、Grok-3、DeepSeek，Midjourney</td>
                 <td>有</td>
                 <td>无需注册</td>
@@ -258,7 +272,7 @@
                 <td>支持 GPT-o1 模型，一比一还原官网，可以使用 AI助手、AI插件</td>
             </tr>
             <tr>
-                <td><a href="lanjing.ai" target="_blank">https://lanjing.ai</a></td>
+                <td><a href="https://chat.lanjingai.org" target="_blank">https://chat.lanjingai.org</a></td>
                 <td>GPT-4, GPT-4o</td>
                 <td>有</td>
                 <td>无需注册</td>
@@ -358,12 +372,10 @@
     <p>本项目将定期更新新的镜像站点和使用教程！</p>
     <p>🌟 <strong>欢迎联系和支持我们</strong>：如果本项目对您有帮助，请帮忙分享给更多的人~</p>
 
-<footer>
-    <p>© 2025 ChatGPT 中文版指南</p>
-</footer>
-
+    <footer>
+        <p>© 2025 ChatGPT 中文版指南</p>
+    </footer>
     </section>
-
     <script>
         const colors = [['#ff0080', '#7928ca'], ['#ff4d4d', '#f9cb28'], ['#7928ca', '#4c88e8'], ['#4c88e8', '#4FE2B1'], ['#ff0080', '#ff7f00']];  
         const randomIndex = Math.floor(Math.random() * colors.length);
