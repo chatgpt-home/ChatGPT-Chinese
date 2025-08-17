@@ -1,5 +1,5 @@
-# 国内如何使用 ChatGPT？最新 ChatGPT 中文版 介绍与使用指南【2025年8月更新】
->更新时间: 2025-08-03
+# 国内如何使用 ChatGPT？最新 ChatGPT 中文版 介绍与使用指南（含GPT-5）【2025年8月更新】
+>更新时间: 2025-08-18
 
 ## ChatGPT 官方中文版概述
 ChatGPT 官方中文版是由 OpenAI 开发的一款智能对话工具，专为中文用户量身定做。它依托先进的自然语言处理技术，不仅可以与用户进行流畅自然的对话，还能理解复杂的上下文，从而提供精确的回复。
@@ -15,8 +15,8 @@ ChatGPT 官方中文版是由 OpenAI 开发的一款智能对话工具，专为�
 ### 推荐资源
 | 名称 | 类型 | 功能支持 | 链接 |
 | --- | --- | --- | --- |
-| [一夏AI](https://chat.lanjingai.org) | 网站 | 支持GPT4.0、GPT o1、AI绘画 | [访问一夏AI](https://chat.lanjingai.org) |
-| [Lify.vip](https://chat.xsimplechat.com) | 网站 | 支持GPT4.0、GPT4o、GPT o1、AI PPT、插件 | [访问Lify.vip](https://chat.xsimplechat.com) |
+| [一夏AI](https://chat.lanjingai.org) | 网站 | 支持GPT5、GPT4.0、GPT o1、AI绘画 | [访问一夏AI](https://chat.lanjingai.org) |
+| [Lify.vip](https://chat.xsimplechat.com) | 网站 | 支持GPT5、GPT4.0、GPT4o、GPT o1、AI PPT、插件 | [访问Lify.vip](https://chat.xsimplechat.com) |
 | [LanjingAI](https://guide1.lanjing.ai) | 网站 | 支持GPT全系列模型 | [访问LanjingAI](https://guide1.lanjing.ai) |
 | ChatGPT电脑版客户端 | 软件下载 | 全面功能支持 | [下载客户端下载](https://chatknow.lify.vip/software/AI%E6%99%BA%E6%85%A7%E5%B2%9B_1.0.0_x64_zh-CN.msi) |
 | Edge浏览器插件 | 插件 | 无缝浏览器集成 | [访问插件](https://microsoftedge.microsoft.com/addons/detail/chatgpt%E4%B8%AD%E6%96%87%E7%89%88%EF%BC%88%E4%B8%AD%E6%96%87%E7%95%8C%E9%9D%A2%E3%80%81%E5%AF%B9%E8%AF%9D%E3%80%81%E5%86%99%E4%BD%9C%E3%80%81%E7%BB%98%E7%94%BB/lmlenkgcieicbnpobkhmpcgmamahahil) |
